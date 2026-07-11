@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://pssproductstudio.github.io/pss-brand-site/sitemap.xml
