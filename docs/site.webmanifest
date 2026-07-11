@@ -1,0 +1,21 @@
+{
+  "name": "PSS 實用軟體製作所",
+  "short_name": "PSS",
+  "description": "整理品牌首頁、服務說法與對外資訊，建立清楚、可靠、可上線的第一個品牌入口。",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f2ea",
+  "theme_color": "#171717",
+  "icons": [
+    {
+      "src": "./assets/pss-ok2-favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/pss-ok2-favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

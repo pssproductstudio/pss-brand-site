@@ -1,0 +1,15 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="520" rx="36" fill="#F7F1E8"/>
+  <path d="M72 116H1528" stroke="#E7DDCF" stroke-width="2"/>
+  <path d="M72 404H1528" stroke="#E7DDCF" stroke-width="2"/>
+  <path d="M456 52V468" stroke="#E7DDCF" stroke-width="2"/>
+  <rect x="94" y="92" width="286" height="286" rx="82" fill="#243648"/>
+  <rect x="144" y="74" width="206" height="206" rx="62" fill="#EA6A47"/>
+  <rect x="198" y="148" width="176" height="176" rx="52" fill="#34A59B"/>
+  <rect x="132" y="212" width="222" height="138" rx="44" fill="#131C2E"/>
+  <rect x="128" y="404" width="220" height="18" rx="9" fill="#243648" opacity="0.14"/>
+  <text x="242" y="310" text-anchor="middle" fill="#FFFFFF" font-size="98" font-weight="800" font-family="Aptos, Inter, Segoe UI, sans-serif" letter-spacing="7">PSS</text>
+  <text x="520" y="232" fill="#213345" font-size="86" font-weight="800" font-family="Noto Sans TC, Microsoft JhengHei, PingFang TC, sans-serif">實用軟體製作所</text>
+  <text x="520" y="300" fill="#4F6781" font-size="38" font-weight="700" font-family="Aptos, Inter, Segoe UI, sans-serif" letter-spacing="2.5">Applied Product Studio</text>
+  <rect x="520" y="332" width="470" height="10" rx="5" fill="#243648" opacity="0.15"/>
+</svg>

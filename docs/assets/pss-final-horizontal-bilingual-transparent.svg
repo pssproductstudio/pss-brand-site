@@ -1,0 +1,12 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="94" y="92" width="286" height="286" rx="82" fill="#243648"/>
+  <rect x="144" y="74" width="206" height="206" rx="62" fill="#EA6A47"/>
+  <rect x="198" y="148" width="176" height="176" rx="52" fill="#34A59B"/>
+  <rect x="132" y="212" width="222" height="138" rx="44" fill="#131C2E"/>
+  <text x="242" y="310" text-anchor="middle" fill="#FFFFFF" font-size="98" font-weight="800" font-family="Aptos, Inter, Segoe UI, sans-serif" letter-spacing="7">PSS</text>
+  <text x="520" y="150" fill="#EA6A47" font-size="21" font-weight="800" font-family="Aptos, Inter, Segoe UI, sans-serif" letter-spacing="7">PRACTICAL PRODUCT STUDIO</text>
+  <text x="520" y="232" fill="#213345" font-size="82" font-weight="800" font-family="Noto Sans TC, Microsoft JhengHei, PingFang TC, sans-serif">實用軟體製作所</text>
+  <text x="520" y="292" fill="#4F6781" font-size="38" font-weight="700" font-family="Aptos, Inter, Segoe UI, sans-serif" letter-spacing="3">Practical Software Studio</text>
+  <rect x="520" y="324" width="760" height="10" rx="5" fill="#243648" opacity="0.15"/>
+  <text x="520" y="388" fill="#425C76" font-size="31" font-weight="500" font-family="Noto Sans TC, Microsoft JhengHei, PingFang TC, sans-serif">用工程與產品思維，打造可上線、可維運、可持續演進的實用軟體</text>
+</svg>

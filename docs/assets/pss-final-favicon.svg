@@ -1,0 +1,7 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="38" y="38" width="436" height="436" rx="114" fill="#243648"/>
+  <rect x="76" y="26" width="294" height="294" rx="86" fill="#EA6A47"/>
+  <rect x="144" y="108" width="252" height="252" rx="72" fill="#34A59B"/>
+  <rect x="72" y="212" width="288" height="178" rx="56" fill="#131C2E"/>
+  <text x="216" y="316" text-anchor="middle" fill="#FFFFFF" font-size="118" font-weight="800" font-family="Aptos, Inter, Segoe UI, sans-serif" letter-spacing="6">PSS</text>
+</svg>
