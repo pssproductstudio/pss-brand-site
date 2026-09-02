@@ -1,7 +1,7 @@
 {
-  "name": "PSS 實用軟體製作所",
+  "name": "PSS Product Studio - Manufacturing Intake Workflow",
   "short_name": "PSS",
-  "description": "整理品牌首頁、服務說法與對外資訊，建立清楚、可靠、可上線的第一個品牌入口。",
+  "description": "整理製造業 RFQ 詢價信、圖面、附件與缺漏資訊，讓報價前人工 review 更清楚。",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f7f2ea",
