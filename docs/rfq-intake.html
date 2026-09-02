@@ -3,14 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light only">
+  <meta name="supported-color-schemes" content="light">
   <title>Manufacturing Intake Workflow | PSS Product Studio</title>
-  <meta name="description" content="A practical checklist for manufacturing teams to organize inquiry emails, drawings, attachments, missing fields, and human review before quotation work.">
-  <meta property="og:title" content="Manufacturing Intake Workflow">
-  <meta property="og:description" content="協助製造業團隊整理詢價信、圖面與附件，讓報價前審查更清楚。">
+  <meta name="description" content="協助製造業團隊整理 RFQ 詢價信、圖面、附件、Excel、CAD/STEP 與缺漏資訊。Manufacturing Intake Workflow before quotation review.">
+  <link rel="canonical" href="https://pssproductstudio.github.io/pss-brand-site/rfq-intake.html">
+  <meta property="og:title" content="Manufacturing Intake Workflow | PSS Product Studio">
+  <meta property="og:description" content="協助製造業團隊整理 RFQ 詢價信、圖面與附件，讓報價前缺漏確認與人工 review 更清楚。">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:url" content="https://pssproductstudio.github.io/pss-brand-site/rfq-intake.html">
+  <meta property="og:image" content="https://pssproductstudio.github.io/pss-brand-site/assets/pss-ok2-cover-extended.png">
+  <meta property="og:image:alt" content="PSS Product Studio Manufacturing Intake Workflow 封面圖">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Manufacturing Intake Workflow | PSS Product Studio">
+  <meta name="twitter:description" content="整理製造業 RFQ 詢價信、圖面、附件與缺漏資訊，讓報價前人工 review 更清楚。">
+  <meta name="twitter:image" content="https://pssproductstudio.github.io/pss-brand-site/assets/pss-ok2-cover-extended.png">
+  <meta name="twitter:image:alt" content="PSS Product Studio Manufacturing Intake Workflow 封面圖">
+  <link rel="icon" type="image/svg+xml" href="./assets/pss-ok2-avatar.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/pss-ok2-favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/pss-ok2-favicon-192.png">
+  <link rel="apple-touch-icon" href="./assets/pss-ok2-favicon-192.png">
   <style>
     :root {
-      color-scheme: light;
+      color-scheme: light only;
       --bg: #f6f8fb;
       --paper: #ffffff;
       --ink: #16202a;
@@ -25,22 +41,6 @@
       --shadow: 0 16px 46px rgba(22, 32, 42, .08);
     }
 
-    body[data-theme="dark"] {
-      color-scheme: dark;
-      --bg: #080b12;
-      --paper: #0f172a;
-      --ink: #e5e7eb;
-      --muted: #a9b4c2;
-      --line: #334155;
-      --blue: #93c5fd;
-      --blue-soft: #111827;
-      --teal: #5eead4;
-      --teal-soft: #0b2f32;
-      --amber: #fbbf24;
-      --amber-soft: #3b1d0b;
-      --shadow: 0 16px 46px rgba(0, 0, 0, .28);
-    }
-
     * {
       box-sizing: border-box;
     }
@@ -48,6 +48,7 @@
     body {
       background: var(--bg);
       color: var(--ink);
+      color-scheme: light only;
       font-family: Arial, "Noto Sans TC", "Microsoft JhengHei", sans-serif;
       line-height: 1.6;
       margin: 0;
@@ -88,15 +89,6 @@
       flex-wrap: wrap;
       gap: 10px;
       justify-content: flex-end;
-    }
-
-    .theme-button {
-      background: var(--paper);
-      border: 1px solid var(--line);
-      color: var(--ink);
-      cursor: pointer;
-      font: 800 13px Arial, sans-serif;
-      padding: 8px 11px;
     }
 
     .hero {
@@ -404,13 +396,12 @@
     }
   </style>
 </head>
-<body data-theme="dark">
+<body>
   <div class="wrap">
     <nav class="nav" aria-label="Page header">
       <div class="brand">PSS Product Studio</div>
       <div class="nav-actions">
         <a href="mailto:pss.product.studio@gmail.com">pss.product.studio@gmail.com</a>
-        <button class="theme-button" id="themeToggle" type="button" aria-pressed="true">亮色模式</button>
       </div>
     </nav>
 
@@ -420,7 +411,7 @@
         <h1>把詢價信、圖面與附件整理成可審查案件</h1>
         <p class="lead">協助製造業團隊先確認 RFQ / 詢價資料是否完整：料號、revision、材質、數量、交期、附件與缺漏問題。目前以 RFQ intake checklist 作為第一個整理情境。</p>
         <div class="actions">
-          <a class="button" href="mailto:pss.product.studio@gmail.com?subject=RFQ%20Checklist%20-%20GitHub&body=Hi%20PSS%2C%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20RFQ%20Intake%20Checklist.%0D%0A%0D%0AOptional%3A%0D%0A1.%20Monthly%20RFQ%20volume%3A%0D%0A2.%20Main%20inquiry%20source%20%28Email%20%2F%20drawings%20%2F%20Excel%20%2F%20CAD%20%2F%20customer%20portal%29%3A%0D%0A3.%20Most%20often%20missing%20field%3A%0D%0A%0D%0APlease%20do%20not%20send%20confidential%20drawings%20or%20customer%20data%20at%20this%20stage.">索取 RFQ Intake Checklist</a>
+          <a class="button" href="mailto:pss.product.studio@gmail.com?subject=RFQ%20Checklist%20-%20GitHub&body=%E6%82%A8%E5%A5%BD%20PSS%EF%BC%8C%0A%0A%E6%88%91%E6%83%B3%E7%B4%A2%E5%8F%96%20RFQ%20Intake%20Checklist%E3%80%82%0A%0A%E5%8F%AF%E9%81%B8%E5%A1%AB%EF%BC%9A%0A1.%20%E6%AF%8F%E6%9C%88%20RFQ%20%2F%20%E8%A9%A2%E5%83%B9%E9%87%8F%EF%BC%9A%0A2.%20%E4%B8%BB%E8%A6%81%E8%A9%A2%E5%83%B9%E4%BE%86%E6%BA%90%EF%BC%88Email%20%2F%20%E5%9C%96%E9%9D%A2%20%2F%20Excel%20%2F%20CAD%2FSTEP%20%2F%20%E5%AE%A2%E6%88%B6%E5%B9%B3%E5%8F%B0%EF%BC%89%EF%BC%9A%0A3.%20%E6%9C%80%E5%B8%B8%E7%BC%BA%E5%B0%91%E6%88%96%E8%A1%9D%E7%AA%81%E7%9A%84%E8%B3%87%E8%A8%8A%EF%BC%9A%0A%0A%E7%9B%AE%E5%89%8D%E4%B8%8D%E6%9C%83%E5%AF%84%E9%80%81%E6%A9%9F%E5%AF%86%E5%9C%96%E9%9D%A2%E3%80%81%E5%AE%A2%E6%88%B6%E8%B3%87%E6%96%99%E3%80%81%E5%83%B9%E6%A0%BC%E3%80%81%E6%88%90%E6%9C%AC%E6%88%96%20ERP%20%E5%8C%AF%E5%87%BA%E3%80%82">索取 RFQ Intake Checklist</a>
           <a class="text-link" href="#questions">先看 5 題自評</a>
         </div>
         <div class="trust-row" aria-label="Assessment boundaries">
@@ -524,7 +515,7 @@
 
       <section>
         <h2>評估範圍與資料邊界</h2>
-        <p class="scope">目前先以小範圍流程評估為主。第一次聯絡不需要提供機密圖面、客戶資料、價格、成本或 ERP 匯出；也不做 AI 自動報價、ERP 寫入、自動寄正式報價或 Production SLA。若後續需要比對既有紀錄，會先以客戶提供的只讀參考表處理，不要求 ERP 登入、API 或寫入權限。</p>
+        <p class="scope">目前先以小範圍流程評估為主。第一次聯絡不需要提供機密圖面、客戶資料、價格、成本或 ERP 匯出；也不做 AI 自動報價、ERP 寫入、自動寄正式報價或正式上線 SLA / 正式服務保證。若後續需要比對既有紀錄，會先以客戶提供的只讀參考表處理，不要求 ERP 登入、API 或寫入權限。</p>
       </section>
 
       <section>
@@ -550,7 +541,7 @@
             <h2>索取 RFQ Intake Checklist</h2>
             <p>目前第一份可索取內容聚焦在 RFQ / 詢價整理。第一次只會寄簡短 checklist，不會要求你上傳機密資料或未遮蔽圖面。</p>
           </div>
-          <a class="button" href="mailto:pss.product.studio@gmail.com?subject=RFQ%20Checklist%20-%20GitHub&body=Hi%20PSS%2C%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20RFQ%20Intake%20Checklist.%0D%0A%0D%0AOptional%3A%0D%0A1.%20Monthly%20RFQ%20volume%3A%0D%0A2.%20Main%20inquiry%20source%20%28Email%20%2F%20drawings%20%2F%20Excel%20%2F%20CAD%20%2F%20customer%20portal%29%3A%0D%0A3.%20Most%20often%20missing%20field%3A%0D%0A%0D%0APlease%20do%20not%20send%20confidential%20drawings%20or%20customer%20data%20at%20this%20stage.">寄信索取</a>
+          <a class="button" href="mailto:pss.product.studio@gmail.com?subject=RFQ%20Checklist%20-%20GitHub&body=%E6%82%A8%E5%A5%BD%20PSS%EF%BC%8C%0A%0A%E6%88%91%E6%83%B3%E7%B4%A2%E5%8F%96%20RFQ%20Intake%20Checklist%E3%80%82%0A%0A%E5%8F%AF%E9%81%B8%E5%A1%AB%EF%BC%9A%0A1.%20%E6%AF%8F%E6%9C%88%20RFQ%20%2F%20%E8%A9%A2%E5%83%B9%E9%87%8F%EF%BC%9A%0A2.%20%E4%B8%BB%E8%A6%81%E8%A9%A2%E5%83%B9%E4%BE%86%E6%BA%90%EF%BC%88Email%20%2F%20%E5%9C%96%E9%9D%A2%20%2F%20Excel%20%2F%20CAD%2FSTEP%20%2F%20%E5%AE%A2%E6%88%B6%E5%B9%B3%E5%8F%B0%EF%BC%89%EF%BC%9A%0A3.%20%E6%9C%80%E5%B8%B8%E7%BC%BA%E5%B0%91%E6%88%96%E8%A1%9D%E7%AA%81%E7%9A%84%E8%B3%87%E8%A8%8A%EF%BC%9A%0A%0A%E7%9B%AE%E5%89%8D%E4%B8%8D%E6%9C%83%E5%AF%84%E9%80%81%E6%A9%9F%E5%AF%86%E5%9C%96%E9%9D%A2%E3%80%81%E5%AE%A2%E6%88%B6%E8%B3%87%E6%96%99%E3%80%81%E5%83%B9%E6%A0%BC%E3%80%81%E6%88%90%E6%9C%AC%E6%88%96%20ERP%20%E5%8C%AF%E5%87%BA%E3%80%82">寄信索取</a>
         </div>
       </section>
     </main>
@@ -561,21 +552,5 @@
       <p>Manufacturing Intake Workflow | pss.product.studio@gmail.com</p>
     </footer>
   </div>
-  <script>
-    const themeButton = document.getElementById("themeToggle");
-    function currentTheme() {
-      return document.body.dataset.theme === "dark" ? "dark" : "light";
-    }
-    function syncThemeButton() {
-      const dark = currentTheme() === "dark";
-      themeButton.textContent = dark ? "亮色模式" : "深色模式";
-      themeButton.setAttribute("aria-pressed", String(dark));
-    }
-    themeButton.addEventListener("click", () => {
-      document.body.dataset.theme = currentTheme() === "dark" ? "light" : "dark";
-      syncThemeButton();
-    });
-    syncThemeButton();
-  </script>
 </body>
 </html>
