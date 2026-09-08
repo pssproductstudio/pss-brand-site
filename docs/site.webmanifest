@@ -1,7 +1,7 @@
 {
-  "name": "PSS Product Studio - Manufacturing Intake Workflow",
+  "name": "PSS Product Studio - B2B Workflow Validation Lab",
   "short_name": "PSS",
-  "description": "整理製造業 RFQ 詢價信、圖面、附件與缺漏資訊，讓報價前人工 review 更清楚。",
+  "description": "面向台灣中小企業的 B2B workflow validation lab。Lane 01 是 Export Manufacturing / RFQ Intake。",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f7f2ea",
