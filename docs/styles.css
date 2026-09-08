@@ -244,9 +244,14 @@ section:target {
 }
 
 .hero h1 {
+  display: block;
   max-width: 12ch;
   font-size: clamp(2.75rem, 4.6vw, 4.15rem);
   line-height: 1.04;
+}
+
+.umbrella-home .hero h1 {
+  display: block;
 }
 
 .lead,
