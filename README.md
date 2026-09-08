@@ -1,12 +1,12 @@
-# PSS Product Studio - Manufacturing Intake Workflow
+# PSS Product Studio - B2B Workflow Validation Lab
 
-Public GitHub Pages site for the RFQ Intake validation track.
+Public GitHub Pages site for PSS Product Studio umbrella positioning and the RFQ Intake validation track.
 
 ## Current Focus
 
-PSS Product Studio is currently using this site as the primary public page for a small Manufacturing Intake Workflow validation.
+PSS Product Studio is currently using this site as the primary public page for a small B2B workflow validation lab focused on Taiwan SMB operations.
 
-The customer-facing scope is intentionally narrow:
+The first public case remains intentionally narrow:
 
 - Organize RFQ / inquiry emails, drawings, attachments, Excel, CAD/STEP, and customer-portal messages.
 - Help manufacturing teams identify missing fields before quotation or engineering review.
@@ -15,7 +15,7 @@ The customer-facing scope is intentionally narrow:
 ## Public Pages
 
 - Homepage: https://pssproductstudio.github.io/pss-brand-site/
-- RFQ page: https://pssproductstudio.github.io/pss-brand-site/rfq-intake.html
+- Lane 01 RFQ page: https://pssproductstudio.github.io/pss-brand-site/rfq-intake.html
 - Blog support article: https://pssproductstudio.blogspot.com/2026/08/email-9.html
 
 ## Boundary
