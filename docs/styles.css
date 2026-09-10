@@ -35,7 +35,7 @@ body {
 
 p,
 li {
-  font-size: 1.04rem;
+  font-size: 1.07rem;
   text-wrap: pretty;
 }
 
@@ -96,8 +96,8 @@ section:target {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: 24px;
-  padding: 20px 0 16px;
+  gap: 22px;
+  padding: 18px 0 14px;
   background: rgba(247, 242, 234, 0.96);
   border-bottom: 1px solid rgba(185, 172, 151, 0.72);
   backdrop-filter: blur(14px);
@@ -115,8 +115,8 @@ section:target {
 .main-nav {
   display: flex;
   justify-content: center;
-  gap: 12px;
-  font-size: 15px;
+  gap: 10px;
+  font-size: 16px;
   font-weight: 650;
   color: var(--muted);
   align-items: center;
@@ -124,7 +124,7 @@ section:target {
 
 .main-nav a {
   white-space: nowrap;
-  padding: 9px 10px;
+  padding: 10px 11px;
   border-radius: 999px;
   letter-spacing: 0.02em;
   transition: color 180ms ease, background-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
@@ -146,11 +146,11 @@ section:target {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 46px;
-  padding: 12px 18px;
+  min-height: 48px;
+  padding: 12px 20px;
   border: 1px solid var(--ink);
   border-radius: var(--radius-sm);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
 }
@@ -190,7 +190,7 @@ section:target {
   white-space: nowrap;
   padding-inline: 20px;
   border-radius: 999px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .back-to-top {
@@ -222,16 +222,16 @@ section:target {
 }
 
 .section {
-  padding: 60px 0;
+  padding: 48px 0;
   border-top: 1px solid rgba(191, 181, 165, 0.58);
 }
 
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1.24fr) minmax(320px, 0.76fr);
-  gap: 48px;
+  gap: 42px;
   align-items: start;
-  padding-top: 78px;
+  padding-top: 62px;
   border-top: none;
 }
 
@@ -311,7 +311,7 @@ section:target {
 .lead {
   max-width: 42ch;
   margin: 28px 0 0;
-  font-size: 1.16rem;
+  font-size: 1.2rem;
 }
 
 .hero-claim {
@@ -859,25 +859,28 @@ section:target {
 .contact-section {
   display: grid;
   grid-template-columns: minmax(0, 0.92fr) minmax(420px, 1.08fr);
-  gap: 32px;
+  gap: 28px;
   align-items: start;
-  column-gap: 44px;
+  column-gap: 40px;
 }
 
 .contact-copy h2 {
-  max-width: 12.8ch;
+  max-width: 15.5ch;
+  font-size: clamp(2.5rem, 3.9vw, 3.55rem);
 }
 
 .contact-copy p {
-  margin: 20px 0 0;
+  margin: 18px 0 0;
   max-width: 42ch;
 }
 
 .contact-panel {
   width: 100%;
-  min-height: 100%;
+  min-height: auto;
   max-width: none;
-  padding: 28px 30px;
+  display: grid;
+  gap: 18px;
+  padding: 24px 26px;
   justify-self: stretch;
   background: var(--surface-muted);
   border-color: var(--line-strong);
@@ -889,11 +892,36 @@ section:target {
 }
 
 .contact-email {
-  margin: 16px 0 0;
+  margin: 0;
   color: var(--ink);
-  font-size: 1.04rem;
+  font-size: 1.08rem;
   font-weight: 800;
   text-wrap: balance;
+}
+
+.contact-guide {
+  display: grid;
+  gap: 10px;
+  margin: 2px 0 0;
+}
+
+.contact-guide p {
+  display: grid;
+  grid-template-columns: 5.2em minmax(0, 1fr);
+  gap: 12px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.contact-guide strong {
+  color: var(--accent-deep);
+  font-weight: 800;
+}
+
+.contact-guide span {
+  min-width: 0;
 }
 
 .contact-email a,
@@ -985,25 +1013,25 @@ a.social-link:focus-visible {
 }
 
 .contact-hint {
-  margin: 12px 0 0;
+  margin: 0;
   font-size: 0.94rem;
 }
 
 .site-footer {
-  padding: 30px 0 48px;
+  padding: 18px 0 34px;
 }
 
 .footer-panel {
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.96fr) minmax(220px, 0.96fr);
-  gap: 24px 30px;
+  gap: 18px 28px;
   align-items: start;
-  padding: 28px 30px;
+  padding: 22px 26px;
   background:
     linear-gradient(180deg, rgba(248, 241, 231, 0.96), rgba(242, 233, 221, 0.94));
   border: 1px solid var(--line-strong);
-  border-top: 3px solid rgba(179, 92, 46, 0.72);
-  border-radius: var(--radius-md);
+  border-top: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
 }
 
 .footer-brand {
@@ -1033,14 +1061,14 @@ a.social-link:focus-visible {
 .footer-summary {
   margin: 12px 0 0;
   color: #5f5449;
-  max-width: 27ch;
+  max-width: 34ch;
 }
 
 .footer-bridge {
   display: grid;
-  gap: 10px;
+  gap: 8px;
   align-content: start;
-  padding-top: 4px;
+  padding-top: 2px;
 }
 
 .footer-bridge p {
@@ -1065,7 +1093,7 @@ a.social-link:focus-visible {
 
 .footer-bridge-copy {
   color: #74695d;
-  max-width: 25ch;
+  max-width: 32ch;
 }
 
 .footer-slogan {
@@ -1077,13 +1105,17 @@ a.social-link:focus-visible {
 
 .footer-meta {
   display: grid;
-  gap: 11px;
+  gap: 8px;
   align-content: start;
   justify-self: stretch;
   justify-items: start;
   min-width: 0;
-  padding-top: 4px;
+  padding-top: 2px;
   text-align: left;
+}
+
+.site-footer p {
+  line-height: 1.58;
 }
 
 .footer-meta p {
@@ -1166,7 +1198,7 @@ a.social-link:focus-visible {
     justify-content: end;
     flex-wrap: nowrap;
     gap: 10px 12px;
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .header-cta {
@@ -1175,8 +1207,8 @@ a.social-link:focus-visible {
 
   .hero {
     grid-template-columns: minmax(0, 1fr) minmax(280px, 0.8fr);
-    gap: 34px;
-    padding-top: 64px;
+    gap: 30px;
+    padding-top: 50px;
   }
 
   .hero h1 {
@@ -1193,7 +1225,7 @@ a.social-link:focus-visible {
   }
 
   .section {
-    padding: 56px 0;
+    padding: 46px 0;
   }
 
   .three-column-grid,
@@ -1302,7 +1334,7 @@ a.social-link:focus-visible {
 
   .footer-panel {
     grid-template-columns: 1fr;
-    gap: 18px;
+    gap: 16px;
   }
 
   .footer-summary,
@@ -1318,7 +1350,7 @@ a.social-link:focus-visible {
   }
 
   .section {
-    padding: 42px 0;
+    padding: 38px 0;
   }
 
   .site-header {
@@ -1347,11 +1379,11 @@ a.social-link:focus-visible {
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 8px;
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .main-nav a {
-    padding: 8px 9px;
+    padding: 8px 10px;
   }
 
   .hero-meta {
@@ -1459,8 +1491,13 @@ a.social-link:focus-visible {
     padding: 18px;
   }
 
+  .contact-guide p {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
   .footer-panel {
-    padding: 20px 18px;
+    padding: 18px;
   }
 
   .faq-item {
