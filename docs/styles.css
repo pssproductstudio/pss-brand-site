@@ -489,6 +489,53 @@ section:target {
   max-width: 760px;
 }
 
+.split-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 0.96fr) minmax(340px, 0.74fr);
+  gap: 28px 64px;
+  align-items: end;
+  max-width: none;
+}
+
+.intro-checkpoints {
+  padding: 20px 0 4px;
+  border-top: 1px solid rgba(185, 172, 151, 0.72);
+}
+
+.intro-checkpoints p {
+  margin: 0;
+  max-width: none;
+  color: var(--accent-deep);
+  font-size: 0.94rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.intro-checkpoints ul {
+  display: grid;
+  gap: 11px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.intro-checkpoints li {
+  display: grid;
+  grid-template-columns: 5em minmax(0, 1fr);
+  gap: 12px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.intro-checkpoints strong {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.intro-checkpoints span {
+  min-width: 0;
+}
+
 .section-heading h2,
 .contact-copy h2 {
   font-size: clamp(2rem, 4vw, 3.15rem);
@@ -1289,6 +1336,16 @@ a.social-link:focus-visible {
     max-width: none;
   }
 
+  .split-intro {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .intro-checkpoints {
+    max-width: 720px;
+    padding-top: 18px;
+  }
+
   .about-section .section-heading {
     display: block;
   }
@@ -1528,6 +1585,11 @@ a.social-link:focus-visible {
   .scenario-card,
   .contact-panel {
     padding: 18px;
+  }
+
+  .intro-checkpoints li {
+    grid-template-columns: 4.8em minmax(0, 1fr);
+    gap: 10px;
   }
 
   .notes-panel {
