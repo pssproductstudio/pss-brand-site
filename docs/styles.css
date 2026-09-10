@@ -1324,13 +1324,13 @@ a.social-link:focus-visible {
   .site-header {
     grid-template-columns: 1fr;
     align-items: start;
-    gap: 14px;
-    padding-top: 18px;
+    gap: 10px;
+    padding: 12px 0 10px;
   }
 
   .hero {
-    gap: 30px;
-    padding-top: 42px;
+    gap: 24px;
+    padding-top: 28px;
   }
 
   .hero h1,
@@ -1340,14 +1340,18 @@ a.social-link:focus-visible {
   }
 
   .brandmark {
-    width: min(100%, 235px);
+    width: min(100%, 198px);
   }
 
   .main-nav {
     justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 8px;
     font-size: 14px;
+  }
+
+  .main-nav a {
+    padding: 8px 9px;
   }
 
   .hero-meta {
@@ -1356,7 +1360,7 @@ a.social-link:focus-visible {
   }
 
   .header-cta {
-    justify-self: start;
+    display: none;
   }
 
   .hero-note {
