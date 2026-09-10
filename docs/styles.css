@@ -498,8 +498,18 @@ section:target {
 }
 
 .intro-checkpoints {
-  padding: 20px 0 4px;
-  border-top: 1px solid rgba(185, 172, 151, 0.72);
+  position: relative;
+  padding: 18px 0 4px;
+}
+
+.intro-checkpoints::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 96px;
+  height: 1px;
+  background: rgba(179, 92, 46, 0.45);
 }
 
 .intro-checkpoints p {
@@ -665,9 +675,10 @@ section:target {
   gap: 22px;
   align-items: center;
   padding: 22px 26px;
-  background: var(--surface);
-  border: 1px solid rgba(185, 172, 151, 0.7);
+  background: rgba(255, 253, 249, 0.64);
+  border: 1px solid rgba(185, 172, 151, 0.52);
   border-radius: var(--radius-sm);
+  box-shadow: none;
 }
 
 .notes-panel h2 {
