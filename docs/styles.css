@@ -1468,8 +1468,8 @@ a.social-link:focus-visible {
   }
 
   .hero {
-    gap: 24px;
-    padding-top: 28px;
+    gap: 20px;
+    padding-top: 20px;
   }
 
   .hero h1,
@@ -1479,7 +1479,7 @@ a.social-link:focus-visible {
   }
 
   .brandmark {
-    width: min(100%, 198px);
+    width: min(100%, 184px);
   }
 
   .main-nav {
@@ -1507,13 +1507,13 @@ a.social-link:focus-visible {
   }
 
   .hero-brandplate {
-    grid-template-columns: 92px minmax(0, 1fr);
+    grid-template-columns: 84px minmax(0, 1fr);
     gap: 18px;
     padding: 16px 0;
   }
 
   .hero-logo {
-    width: min(100%, 92px);
+    width: min(100%, 84px);
   }
 
   .hero-brandcopy strong {
