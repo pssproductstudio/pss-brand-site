@@ -11,7 +11,7 @@
   --accent-deep: #8b4320;
   --font-zh: "Noto Sans TC", sans-serif;
   --font-en: "Newsreader", Georgia, serif;
-  --max-width: 1180px;
+  --max-width: 1280px;
   --radius-sm: 10px;
   --radius-md: 14px;
 }
@@ -35,6 +35,7 @@ body {
 
 p,
 li {
+  font-size: 1.04rem;
   text-wrap: pretty;
 }
 
@@ -114,16 +115,16 @@ section:target {
 .main-nav {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  font-size: 13px;
-  font-weight: 500;
+  gap: 12px;
+  font-size: 15px;
+  font-weight: 650;
   color: var(--muted);
   align-items: center;
 }
 
 .main-nav a {
   white-space: nowrap;
-  padding: 8px 10px;
+  padding: 9px 10px;
   border-radius: 999px;
   letter-spacing: 0.02em;
   transition: color 180ms ease, background-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
@@ -189,7 +190,35 @@ section:target {
   white-space: nowrap;
   padding-inline: 20px;
   border-radius: 999px;
-  font-size: 14px;
+  font-size: 15px;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 30;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  color: #fff;
+  background: var(--accent);
+  border: 1px solid rgba(139, 67, 32, 0.22);
+  border-radius: 999px;
+  box-shadow: 0 14px 30px rgba(139, 67, 32, 0.18);
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1;
+  transition: background-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.back-to-top:hover,
+.back-to-top:focus-visible {
+  background: var(--accent-deep);
+  transform: translateY(-2px);
+  box-shadow: 0 16px 34px rgba(139, 67, 32, 0.2);
 }
 
 .section {
@@ -221,7 +250,7 @@ section:target {
   gap: 10px 16px;
   margin: 0 0 20px;
   color: var(--muted);
-  font-size: 0.94rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -280,9 +309,9 @@ section:target {
 }
 
 .lead {
-  max-width: 38ch;
+  max-width: 42ch;
   margin: 28px 0 0;
-  font-size: 1.06rem;
+  font-size: 1.16rem;
 }
 
 .hero-claim {
@@ -310,7 +339,7 @@ section:target {
   padding: 0;
   list-style: none;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -407,7 +436,7 @@ section:target {
 .hero-brandline {
   color: var(--ink);
   font-family: var(--font-en);
-  font-size: 0.98rem;
+  font-size: 1.04rem;
   font-weight: 600;
 }
 
@@ -658,17 +687,21 @@ section:target {
 
 .service-card h3 {
   margin-bottom: 6px;
-  font-size: 1.24rem;
+  font-size: 1.32rem;
 }
 
 .card-output {
   color: var(--muted);
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 1rem;
   margin-top: 4px;
   padding-top: 14px;
   border-top: 1px solid rgba(191, 181, 165, 0.56);
   max-width: 31ch;
+}
+
+.scene-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .card-reason {
@@ -1132,8 +1165,8 @@ a.social-link:focus-visible {
   .main-nav {
     justify-content: end;
     flex-wrap: nowrap;
-    gap: 12px 16px;
-    font-size: 13px;
+    gap: 10px 12px;
+    font-size: 14px;
   }
 
   .header-cta {
@@ -1314,7 +1347,7 @@ a.social-link:focus-visible {
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 16px;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .hero-meta {
@@ -1379,6 +1412,14 @@ a.social-link:focus-visible {
 
   .button {
     width: 100%;
+  }
+
+  .back-to-top {
+    right: 14px;
+    bottom: 14px;
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
   }
 
   .hero-actions,
